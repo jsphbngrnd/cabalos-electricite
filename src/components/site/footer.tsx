@@ -27,12 +27,6 @@ export default function Footer() {
                   </Link>
                 </li>
               ))}
-              <li>
-                <Link href="/blog" className="text-[var(--muted-foreground)] hover:text-[var(--foreground)] transition-colors">Blog</Link>
-              </li>
-              <li>
-                <Link href="/realisations" className="text-[var(--muted-foreground)] hover:text-[var(--foreground)] transition-colors">Réalisations</Link>
-              </li>
             </ul>
           </div>
 
