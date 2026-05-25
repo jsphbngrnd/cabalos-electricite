@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
 import Header from "@/components/site/header";
 import Footer from "@/components/site/footer";
 
@@ -112,6 +113,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <Header />
         <main className="flex-1 page-in">{children}</main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
