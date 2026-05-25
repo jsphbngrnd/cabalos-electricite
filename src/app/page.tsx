@@ -43,7 +43,7 @@ export default function HomePage() {
       <section className="px-6 lg:px-10 pt-16 lg:pt-24 pb-12 lg:pb-16">
         <div className="max-w-[1440px] mx-auto grid lg:grid-cols-12 gap-10 lg:gap-16">
           <div className="lg:col-span-8">
-            <div className="eyebrow">Édition 2026</div>
+            <div className="eyebrow">Électricienne Marseille</div>
             <h1 className="mt-6 text-[44px] sm:text-[56px] lg:text-[78px] leading-[1.02] font-medium tracking-[-.018em] text-balance">
               Électricienne{" "}
               <span style={{ color: "var(--primary)" }}>indépendante</span> à
