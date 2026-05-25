@@ -45,18 +45,18 @@ export default function ProfessionnelsPage() {
           {PROS.map(([k, v], i) => (
             <div
               key={k}
-              className="row grid grid-cols-12 gap-6 lg:gap-10 py-7 lg:py-9 items-start border-b border-[var(--border)]"
+              className="row flex flex-col lg:grid lg:grid-cols-12 lg:gap-10 gap-3 py-7 lg:py-9 items-start border-b border-[var(--border)]"
             >
-              <div className="col-span-2 lg:col-span-1 font-mono num text-[14px] text-[var(--muted-foreground)] pt-1">
+              <div className="lg:col-span-1 font-mono num text-[14px] text-[var(--muted-foreground)]">
                 0{i + 1}
               </div>
-              <h3 className="col-span-10 lg:col-span-4 font-display text-[20px] lg:text-[24px] font-medium leading-[1.15]">
+              <h3 className="lg:col-span-4 font-display text-[20px] lg:text-[24px] font-medium leading-[1.15]">
                 {k}
               </h3>
-              <div className="col-span-12 lg:col-span-5 text-[15.5px] leading-[1.55] text-[var(--muted-foreground)] max-w-[52ch]">
+              <div className="lg:col-span-5 text-[15.5px] leading-[1.55] text-[var(--muted-foreground)] max-w-[52ch]">
                 {v}
               </div>
-              <div className="col-span-12 lg:col-span-2 lg:text-right text-[13.5px]">
+              <div className="lg:col-span-2 lg:text-right text-[13.5px]">
                 <Link href="/contact" className="link font-medium inline-flex items-center gap-1.5">
                   Contacter
                   <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
