@@ -4,7 +4,7 @@ import { Resend } from "resend";
 
 const resendApiKey = process.env.RESEND_API_KEY;
 const contactEmail =
-  process.env.CONTACT_EMAIL || "contact@cabalos-electricite.fr";
+  process.env.CONTACT_EMAIL || "cabal.emma@gmail.com";
 
 function getResend() {
   if (!resendApiKey) return null;
