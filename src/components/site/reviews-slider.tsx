@@ -55,7 +55,9 @@ export default function ReviewsSlider() {
         style={{ animation: "reviews-in 0.35s cubic-bezier(0.22,1,0.36,1) both" }}
       >
         {visible.map((r, i) => (
-          <ReviewCard key={i} body={r.body} who={r.who} role={r.role} accent={r.accent} />
+          <div key={i} className={i === 1 ? "hidden lg:block" : undefined}>
+            <ReviewCard body={r.body} who={r.who} role={r.role} accent={r.accent} />
+          </div>
         ))}
       </div>
 

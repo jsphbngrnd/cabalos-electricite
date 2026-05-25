@@ -17,7 +17,7 @@ export default function StatsRow() {
               )}
             >
               <div
-                className="font-display num text-[44px] lg:text-[60px] leading-none font-medium"
+                className="font-display num text-[34px] lg:text-[60px] leading-none font-medium"
                 style={{ color: i === 0 ? "var(--primary)" : "var(--foreground)" }}
               >
                 {n}

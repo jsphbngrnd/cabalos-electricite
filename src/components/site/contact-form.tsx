@@ -55,7 +55,7 @@ export default function ContactForm() {
   return (
     <form action={action}>
       <div className="h-px bg-[var(--border)]" />
-      <div className="grid grid-cols-2 gap-x-6 gap-y-5 py-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-5 py-8">
         <Field label="Prénom" required>
           <input name="prenom" type="text" required className={inputCls} placeholder="Emma" />
         </Field>
