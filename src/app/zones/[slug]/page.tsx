@@ -32,6 +32,18 @@ export async function generateMetadata({
       "Emma Cabal",
     ],
     alternates: { canonical: `/zones/${zone.slug}` },
+    openGraph: {
+      title: `Électricienne à ${zone.shortName} – Cabalos Électricité`,
+      description: `Emma Cabal intervient à ${zone.shortName} pour tous vos travaux électriques. Installation, rénovation, mise aux normes NF C 15-100, dépannage. Devis gratuit.`,
+      url: `/zones/${zone.slug}`,
+      images: [{ url: "/OpenGraph.png", width: 1200, height: 630, alt: `Cabalos Électricité – Électricienne à ${zone.shortName}` }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `Électricienne à ${zone.shortName} – Cabalos Électricité`,
+      description: `Emma Cabal intervient à ${zone.shortName} pour tous vos travaux électriques. Devis gratuit.`,
+      images: ["/OpenGraph.png"],
+    },
   };
 }
 

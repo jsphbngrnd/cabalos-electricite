@@ -11,6 +11,18 @@ export const metadata: Metadata = {
   description:
     "Cabalos Électricité intervient dans tous les arrondissements de Marseille et les communes alentours : Aubagne, Aix-en-Provence, Martigues, Allauch, La Ciotat, Gardanne. Devis gratuit.",
   alternates: { canonical: "/zones" },
+  openGraph: {
+    title: "Zones d'intervention – Cabalos Électricité",
+    description: "Intervention dans les 16 arrondissements de Marseille et les communes alentours jusqu'à 30 km : Aubagne, Aix-en-Provence, Cassis, La Ciotat, Allauch, Martigues.",
+    url: "/zones",
+    images: [{ url: "/OpenGraph.png", width: 1200, height: 630, alt: "Cabalos Électricité – Zones d'intervention" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Zones d'intervention – Cabalos Électricité",
+    description: "Intervention dans les 16 arrondissements de Marseille et les communes alentours jusqu'à 30 km.",
+    images: ["/OpenGraph.png"],
+  },
 };
 
 const arrondissements = zones.filter((z) => z.type === "arrondissement");

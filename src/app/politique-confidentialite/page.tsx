@@ -5,6 +5,12 @@ export const metadata: Metadata = {
   title: "Politique de confidentialité — Cabalos Électricité",
   description: "Politique de confidentialité et protection des données personnelles — Cabalos Électricité.",
   alternates: { canonical: "/politique-confidentialite" },
+  openGraph: {
+    title: "Politique de confidentialité – Cabalos Électricité",
+    description: "Protection des données personnelles et conformité RGPD — Cabalos Électricité.",
+    url: "/politique-confidentialite",
+    images: [{ url: "/OpenGraph.png", width: 1200, height: 630, alt: "Cabalos Électricité" }],
+  },
 };
 
 const SECTIONS = [

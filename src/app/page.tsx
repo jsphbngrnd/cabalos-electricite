@@ -9,10 +9,22 @@ import CTABanner from "@/components/site/cta-banner";
 import SectionHead from "@/components/site/section-head";
 
 export const metadata: Metadata = {
-  title: "Électricienne à Marseille – Cabalos électricité",
+  title: "Électricienne à Marseille – Cabalos Électricité",
   description:
-    "Cabalos électricité, électricienne professionnelle à Marseille. Installation, rénovation, mise aux normes NF C 15-100, tableau électrique, dépannage urgence. Devis gratuit.",
+    "Cabalos Électricité, électricienne professionnelle à Marseille. Installation, rénovation, mise aux normes NF C 15-100, tableau électrique, dépannage urgence. Devis gratuit.",
   alternates: { canonical: "/" },
+  openGraph: {
+    title: "Électricienne à Marseille – Cabalos Électricité",
+    description: "Emma Cabal, électricienne indépendante à Marseille. Installation, rénovation, mise aux normes NF C 15-100, dépannage urgence. Devis gratuit.",
+    url: "/",
+    images: [{ url: "/OpenGraph.png", width: 1200, height: 630, alt: "Cabalos Électricité – Électricienne à Marseille" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Électricienne à Marseille – Cabalos Électricité",
+    description: "Emma Cabal, électricienne indépendante à Marseille. Installation, rénovation, mise aux normes NF C 15-100, dépannage urgence. Devis gratuit.",
+    images: ["/OpenGraph.png"],
+  },
 };
 
 export default function HomePage() {

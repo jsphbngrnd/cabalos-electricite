@@ -13,6 +13,18 @@ export const metadata: Metadata = {
   description:
     "Dépannage, mise aux normes, rénovation, installation d'appareils, tableau électrique — 8 prestations à Marseille et dans un rayon de 30 km. Devis gratuit.",
   alternates: { canonical: "/prestations" },
+  openGraph: {
+    title: "Prestations électriques à Marseille – Cabalos Électricité",
+    description: "Dépannage, mise aux normes, rénovation, installation d'appareils, tableau électrique — 8 prestations à Marseille et 30 km autour. Devis gratuit.",
+    url: "/prestations",
+    images: [{ url: "/OpenGraph.png", width: 1200, height: 630, alt: "Cabalos Électricité – Prestations" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Prestations électriques à Marseille – Cabalos Électricité",
+    description: "Dépannage, mise aux normes, rénovation, installation d'appareils, tableau électrique — 8 prestations à Marseille et 30 km autour.",
+    images: ["/OpenGraph.png"],
+  },
 };
 
 export default function PrestationsPage() {

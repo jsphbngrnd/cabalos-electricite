@@ -12,6 +12,18 @@ export const metadata: Metadata = {
   description:
     "Électricienne en sous-traitance pour architectes, maîtres d'œuvre, syndics et artisans à Marseille. Réactivité, certification, communication, qualité d'exécution.",
   alternates: { canonical: "/professionnels" },
+  openGraph: {
+    title: "Électricienne pour les professionnels – Cabalos Électricité",
+    description: "Sous-traitance pour architectes, maîtres d'œuvre, syndics et artisans à Marseille. Réactivité, certification, comptes-rendus de chantier.",
+    url: "/professionnels",
+    images: [{ url: "/OpenGraph.png", width: 1200, height: 630, alt: "Cabalos Électricité – Professionnels" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Électricienne pour les professionnels – Cabalos Électricité",
+    description: "Sous-traitance pour architectes, maîtres d'œuvre, syndics et artisans à Marseille.",
+    images: ["/OpenGraph.png"],
+  },
 };
 
 export default function ProfessionnelsPage() {

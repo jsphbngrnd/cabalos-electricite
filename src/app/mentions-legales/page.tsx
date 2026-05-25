@@ -5,6 +5,12 @@ export const metadata: Metadata = {
   title: "Mentions légales — Cabalos Électricité",
   description: "Mentions légales du site cabalos-electricite.fr — éditeur, hébergeur, propriété intellectuelle.",
   alternates: { canonical: "/mentions-legales" },
+  openGraph: {
+    title: "Mentions légales – Cabalos Électricité",
+    description: "Mentions légales du site cabalos-electricite.fr.",
+    url: "/mentions-legales",
+    images: [{ url: "/OpenGraph.png", width: 1200, height: 630, alt: "Cabalos Électricité" }],
+  },
 };
 
 const SECTIONS = [

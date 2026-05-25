@@ -11,6 +11,18 @@ export const metadata: Metadata = {
   description:
     "Découvrez Emma Cabal, électricienne indépendante à Marseille. CAP Électricien, habilitations NF C 15-100, RC Pro. Méthode de travail en 5 étapes, valeurs et certifications.",
   alternates: { canonical: "/a-propos" },
+  openGraph: {
+    title: "À propos – Emma Cabal, électricienne indépendante à Marseille",
+    description: "De Beaux-Arts à l'électricité — le parcours d'Emma Cabal, électricienne artisane à Marseille. CAP, habilitations NF C 15-100, RC Pro.",
+    url: "/a-propos",
+    images: [{ url: "/OpenGraph.png", width: 1200, height: 630, alt: "Emma Cabal – Cabalos Électricité" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "À propos – Emma Cabal, électricienne indépendante à Marseille",
+    description: "De Beaux-Arts à l'électricité — le parcours d'Emma Cabal, électricienne artisane à Marseille.",
+    images: ["/OpenGraph.png"],
+  },
 };
 
 export default function AProposPage() {

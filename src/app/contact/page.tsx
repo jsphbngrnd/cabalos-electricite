@@ -8,6 +8,18 @@ export const metadata: Metadata = {
   description:
     "Contactez Emma Cabal, électricienne à Marseille. Devis gratuit après diagnostic sur place. Réponse sous 48 heures.",
   alternates: { canonical: "/contact" },
+  openGraph: {
+    title: "Contact – Demander un devis gratuit – Cabalos Électricité",
+    description: "Contactez Emma Cabal, électricienne à Marseille. Devis gratuit après diagnostic sur place. Réponse sous 48 heures, urgences traitées le jour même.",
+    url: "/contact",
+    images: [{ url: "/OpenGraph.png", width: 1200, height: 630, alt: "Cabalos Électricité – Contact" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact – Demander un devis gratuit – Cabalos Électricité",
+    description: "Contactez Emma Cabal, électricienne à Marseille. Devis gratuit après diagnostic sur place.",
+    images: ["/OpenGraph.png"],
+  },
 };
 
 const CONTACT_INFO = [

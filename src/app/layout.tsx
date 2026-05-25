@@ -48,10 +48,16 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "fr_FR",
-    siteName: "Cabalos électricité",
-    title: "Cabalos électricité – Électricienne à Marseille",
+    siteName: "Cabalos Électricité",
+    title: "Cabalos Électricité – Électricienne à Marseille",
     description: "Votre électricienne professionnelle à Marseille. Installation, rénovation, mise aux normes, dépannage urgence.",
-    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Cabalos électricité" }],
+    images: [{ url: "/OpenGraph.png", width: 1200, height: 630, alt: "Cabalos Électricité – Électricienne à Marseille" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Cabalos Électricité – Électricienne à Marseille",
+    description: "Votre électricienne professionnelle à Marseille. Installation, rénovation, mise aux normes, dépannage urgence.",
+    images: ["/OpenGraph.png"],
   },
   robots: {
     index: true,
