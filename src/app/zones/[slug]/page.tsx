@@ -55,7 +55,7 @@ export default async function ZonePage({
     },
     {
       q: `Quel budget prévoir pour une intervention à ${zone.shortName} ?`,
-      a: `Les tarifs dépendent de la nature des travaux. Emma établit un devis gratuit et détaillé avant toute intervention. Pour le dépannage : à partir de 80 € TTC en journée. Pas de mauvaise surprise : le prix annoncé est le prix facturé.`,
+      a: `Les tarifs dépendent de la nature des travaux. Emma établit un devis gratuit et détaillé avant toute intervention. Pour le dépannage : à partir de 120 € TTC en journée. Pas de mauvaise surprise : le prix annoncé est le prix facturé.`,
     },
   ];
 
