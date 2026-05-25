@@ -140,10 +140,10 @@ export default function HomePage() {
             {/* Valeurs — spans 2 columns */}
             <div className="lg:col-span-2 bg-[var(--card)] border border-[var(--border)] rounded-[var(--radius)] p-6 lg:p-8">
               <div className="eyebrow mb-6">04 · Valeurs</div>
-              <div className="grid grid-cols-2 lg:grid-cols-5 gap-5 lg:gap-4">
+              <div className="flex flex-col sm:grid sm:grid-cols-2 lg:grid-cols-5 gap-3 lg:gap-4">
                 {VALUES.map(([k], i) => (
-                  <div key={k}>
-                    <div className="font-mono num text-[11px] text-[var(--muted-foreground)] mb-2">0{i + 1}</div>
+                  <div key={k} className="flex sm:flex-col items-baseline sm:items-start gap-3 sm:gap-0">
+                    <div className="font-mono num text-[11px] text-[var(--muted-foreground)] sm:mb-2 shrink-0">0{i + 1}</div>
                     <div className="font-display text-[16px] font-medium leading-snug">{k}</div>
                   </div>
                 ))}
