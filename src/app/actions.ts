@@ -15,6 +15,12 @@ export async function sendContactEmail(
   _prevState: { success: boolean; message: string } | null,
   formData: FormData
 ): Promise<{ success: boolean; message: string }> {
+  // Honeypot: bots fill hidden fields, humans don't
+  const honeypot = formData.get("website") as string;
+  if (honeypot) {
+    return { success: true, message: "Votre message a bien été envoyé ! Nous vous répondrons dans les plus brefs délais." };
+  }
+
   const nom = formData.get("nom") as string;
   const prenom = formData.get("prenom") as string;
   const email = formData.get("email") as string;
@@ -85,6 +91,11 @@ export async function sendFooterContactEmail(
   _prevState: { success: boolean; message: string } | null,
   formData: FormData
 ): Promise<{ success: boolean; message: string }> {
+  const honeypot = formData.get("website") as string;
+  if (honeypot) {
+    return { success: true, message: "Message envoyé ! Nous vous répondrons rapidement." };
+  }
+
   const nom = formData.get("nom") as string;
   const email = formData.get("email") as string;
   const message = formData.get("message") as string;
