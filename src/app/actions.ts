@@ -50,7 +50,7 @@ export async function sendContactEmail(
 
   try {
     await resend.emails.send({
-      from: "Cabalos Electricité <noreply@cabalos-electricite.fr>",
+      from: "Cabalos Electricité <onboarding@resend.dev>",
       to: [contactEmail],
       replyTo: email,
       subject: `Nouveau message de contact – ${prenom} ${nom}`,
@@ -108,7 +108,7 @@ export async function sendFooterContactEmail(
 
   try {
     await resend.emails.send({
-      from: "Cabalos Electricité <noreply@cabalos-electricite.fr>",
+      from: "Cabalos Electricité <onboarding@resend.dev>",
       to: [contactEmail],
       replyTo: email,
       subject: `Message rapide de ${nom}`,
