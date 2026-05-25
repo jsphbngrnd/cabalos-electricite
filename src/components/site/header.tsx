@@ -124,7 +124,7 @@ export default function Header() {
               <path d="M2 6h8M7 3l3 3-3 3" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </Link>
-          <div className="mt-4 flex flex-col gap-1 text-[13px] text-[var(--muted-foreground)]">
+          <div className="mt-4 flex items-center justify-between text-[13px] text-[var(--muted-foreground)]">
             <a href="tel:0632363563" className="hover:text-[var(--foreground)] transition-colors">
               06 · 32 · 36 · 35 · 63
             </a>
