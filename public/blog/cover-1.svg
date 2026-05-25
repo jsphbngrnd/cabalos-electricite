@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#F6F4F2"/>
+
+  <!-- Left group: 2×2 overlapping circles, rose / violet -->
+  <circle cx="155" cy="155" r="195" fill="#cc0066" opacity="0.83"/>
+  <circle cx="455" cy="155" r="195" fill="#9999cc" opacity="0.83"/>
+  <circle cx="155" cy="475" r="195" fill="#9999cc" opacity="0.83"/>
+  <circle cx="455" cy="475" r="195" fill="#cc0066" opacity="0.70"/>
+
+  <!-- Right group: 2×2 overlapping circles, dark / rose -->
+  <circle cx="745" cy="155" r="195" fill="#2d2040" opacity="0.88"/>
+  <circle cx="1045" cy="155" r="195" fill="#cc0066" opacity="0.72"/>
+  <circle cx="745" cy="475" r="195" fill="#cc0066" opacity="0.72"/>
+  <circle cx="1045" cy="475" r="195" fill="#2d2040" opacity="0.88"/>
+
+  <!-- Inner accent — eye at centre of right group -->
+  <circle cx="895" cy="315" r="88" fill="#F6F4F2" opacity="0.88"/>
+</svg>

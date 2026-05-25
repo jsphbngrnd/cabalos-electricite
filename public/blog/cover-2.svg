@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#F6F4F2"/>
+
+  <!-- Dark wedge, bottom-left -->
+  <path d="M 0 210 L 0 630 L 600 630 Z" fill="#2d2040" opacity="0.88"/>
+
+  <!-- Large violet circle, upper-centre -->
+  <circle cx="510" cy="170" r="280" fill="#9999cc" opacity="0.78"/>
+
+  <!-- Medium rose circle, right -->
+  <circle cx="950" cy="390" r="255" fill="#cc0066" opacity="0.74"/>
+
+  <!-- Overlap transition circle -->
+  <circle cx="690" cy="390" r="165" fill="#9999cc" opacity="0.55"/>
+
+  <!-- Inner white accent on violet circle -->
+  <circle cx="510" cy="170" r="92" fill="#F6F4F2" opacity="0.86"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#F6F4F2"/>
+
+  <!-- Left large near-white circle, mostly below midline -->
+  <circle cx="265" cy="510" r="375" fill="#ffffff" opacity="0.90"/>
+
+  <!-- Centre large dark-violet circle -->
+  <circle cx="640" cy="475" r="335" fill="#2d2040" opacity="0.85"/>
+
+  <!-- Right large violet circle -->
+  <circle cx="1020" cy="510" r="350" fill="#9999cc" opacity="0.80"/>
+
+  <!-- Rose squircle accent, upper-centre -->
+  <rect x="455" y="52" width="270" height="208" rx="92" ry="92" fill="#cc0066" opacity="0.83"/>
+</svg>
