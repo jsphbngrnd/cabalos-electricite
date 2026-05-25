@@ -121,7 +121,7 @@ export default function PrestationsPage() {
             ))}
           </div>
           <p className="mt-4 text-[13px] text-[var(--muted-foreground)]">
-            Pour les travaux (rénovation, tableau, installation) — devis détaillé après diagnostic sur place, gratuit et sans engagement.
+            Pour les travaux (rénovation, tableau, installation) — devis détaillé après diagnostic sur place, gratuit et sans engagement. Ces tarifs s&rsquo;appliquent à Marseille ; une majoration de 30 % est appliquée pour les interventions dans les communes alentours (Aubagne, Aix-en-Provence, Cassis, etc.).
           </p>
         </div>
       </section>

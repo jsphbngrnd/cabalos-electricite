@@ -11,7 +11,7 @@ export const SERVICES = [
       "Appareil qui provoque une coupure générale",
     ],
     conclusion: "Identification de l'origine du problème, sécurisation et réparation en toute sécurité.",
-    price: "120 €/jour · 150 €/soir · 200 €/WE",
+    price: "120 €/jour · 200 €/soir · 150 €/WE",
     slug: "depannage",
   },
   {
@@ -114,19 +114,19 @@ export const TARIFS = [
     label: "Journée",
     detail: "Lun – Ven · 9h–18h",
     price: "À partir de 120 € TTC",
-    note: "Diagnostic + réparation simple + déplacement. Matériel facturé en supplément.",
+    note: "Diagnostic + réparation simple + déplacement. Matériel facturé en supplément. +30 % hors Marseille.",
   },
   {
     label: "Soirée",
     detail: "Lun – Ven · après 18h",
-    price: "À partir de 150 € TTC",
-    note: "Diagnostic + réparation simple + déplacement. Matériel facturé en supplément.",
+    price: "À partir de 200 € TTC",
+    note: "Diagnostic + réparation simple + déplacement. Matériel facturé en supplément. +30 % hors Marseille.",
   },
   {
     label: "Week-end & urgence",
     detail: "Samedi, dimanche, jours fériés",
-    price: "À partir de 200 € TTC",
-    note: "Diagnostic + réparation simple + déplacement. Matériel facturé en supplément.",
+    price: "À partir de 150 € TTC",
+    note: "Diagnostic + réparation simple + déplacement. Matériel facturé en supplément. +30 % hors Marseille.",
   },
 ];
 
@@ -246,7 +246,7 @@ export const REVIEWS = [
 export const FAQ: [string, string][] = [
   ["Qui est Cabalos Électricité ?", "Emma Cabal, électricienne indépendante installée à Marseille. Titulaire du CAP Électricien, elle possède les habilitations électriques réglementaires et est assurée en RC Pro."],
   ["Quelle est la zone d'intervention ?", "Marseille intra-muros (16 arrondissements) et environ 30 km autour : Aubagne, Aix-en-Provence, Cassis, La Ciotat, Allauch, Martigues."],
-  ["Intervenez-vous en urgence ?", "Oui pour les pannes courantes — appel le matin, intervention l'après-midi quand c'est possible. À partir de 120 € TTC en journée, tarif majoré le soir et le week-end."],
+  ["Intervenez-vous en urgence ?", "Oui pour les pannes courantes — appel le matin, intervention l'après-midi quand c'est possible. À partir de 120 € TTC en journée (200 € le soir, 150 € le week-end). Tarif majoré de 30 % hors Marseille."],
   ["Comment obtenir un devis ?", "Par formulaire, mail ou téléphone. Diagnostic sur place gratuit, devis détaillé envoyé sous 48 heures."],
   ["Quel budget prévoir pour une rénovation électrique ?", "Cela dépend de la surface et de l'état existant. Un devis gratuit après diagnostic sur place permet de chiffrer précisément."],
 ];
