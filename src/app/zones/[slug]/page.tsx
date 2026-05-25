@@ -99,16 +99,16 @@ export default async function ZonePage({
               key={s.n}
               className="grid grid-cols-12 gap-4 lg:gap-10 py-6 lg:py-7 border-b border-[var(--border)]"
             >
-              <div className="col-span-2 lg:col-span-1">
+              <div className="col-span-1">
                 <span className="font-mono num text-[14px] text-[var(--muted-foreground)]">{s.n}</span>
               </div>
-              <h3 className="col-span-10 lg:col-span-4 font-display text-[18px] lg:text-[20px] font-medium leading-snug">
+              <h3 className="col-span-11 lg:col-span-4 font-display text-[18px] lg:text-[20px] font-medium leading-snug">
                 {s.t}
               </h3>
-              <div className="col-span-12 lg:col-span-5 text-[14.5px] leading-[1.55] text-[var(--muted-foreground)] max-w-[52ch]">
+              <div className="col-start-2 col-span-11 lg:col-start-auto lg:col-span-5 text-[14.5px] leading-[1.55] text-[var(--muted-foreground)] max-w-[52ch]">
                 {s.d}
               </div>
-              <div className="col-span-12 lg:col-span-2 lg:text-right">
+              <div className="col-start-2 col-span-11 lg:col-start-auto lg:col-span-2 lg:text-right">
                 <Link href="/contact" className="link text-[13.5px] font-medium inline-flex items-center gap-1.5">
                   Devis
                   <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
@@ -136,7 +136,7 @@ export default async function ZonePage({
           <div className="h-px bg-[var(--border)]" />
           {faqItems.map(({ q, a }) => (
             <div key={q} className="grid grid-cols-12 gap-6 lg:gap-10 py-7 border-b border-[var(--border)]">
-              <h3 className="col-span-12 lg:col-span-4 font-display text-[16px] lg:text-[18px] font-medium leading-snug">
+              <h3 className="col-span-12 lg:col-span-4 font-display text-[16px] lg:text-[18px] font-medium leading-snug pb-1">
                 {q}
               </h3>
               <div className="col-span-12 lg:col-span-8 text-[15px] leading-[1.55] text-[var(--muted-foreground)] max-w-[64ch]">

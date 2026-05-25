@@ -41,12 +41,12 @@ export default function PrestationsPage() {
               className="grid grid-cols-12 gap-4 lg:gap-10 py-8 lg:py-10 border-b border-[var(--border)]"
             >
               {/* Num */}
-              <div className="col-span-2 lg:col-span-1">
+              <div className="col-span-1">
                 <span className="font-mono num text-[14px] text-[var(--muted-foreground)] pt-1 block">{s.n}</span>
               </div>
 
               {/* Title + desc */}
-              <div className="col-span-10 lg:col-span-4">
+              <div className="col-span-11 lg:col-span-4">
                 <h3 className="font-display text-[19px] lg:text-[22px] font-medium leading-snug mb-3">
                   {s.t}
                 </h3>
@@ -59,7 +59,7 @@ export default function PrestationsPage() {
               </div>
 
               {/* Details + conclusion */}
-              <div className="col-span-12 lg:col-span-5">
+              <div className="col-start-2 col-span-11 lg:col-start-auto lg:col-span-5">
                 {s.details && s.details.length > 0 && (
                   <ul className="space-y-2 mb-4">
                     {s.details.map((d) => (
@@ -79,7 +79,7 @@ export default function PrestationsPage() {
               </div>
 
               {/* CTA */}
-              <div className="col-span-12 lg:col-span-2 lg:text-right text-[13.5px] lg:pt-1">
+              <div className="col-start-2 col-span-11 lg:col-start-auto lg:col-span-2 lg:text-right text-[13.5px] lg:pt-1">
                 <Link href="/contact" className="link font-medium inline-flex items-center gap-1.5">
                   Devis
                   <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
