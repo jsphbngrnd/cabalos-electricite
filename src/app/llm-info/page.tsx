@@ -132,8 +132,8 @@ export default function LlmInfoPage() {
                 {rows && (
                   <dl className="flex flex-col gap-2">
                     {rows.map(([k, v]) => (
-                      <div key={k} className="grid grid-cols-[10ch_1fr] gap-4 text-[14.5px] leading-[1.55]">
-                        <dt className="font-mono text-[12px] uppercase tracking-[.1em] text-[var(--muted-foreground)] pt-[2px]">{k}</dt>
+                      <div key={k} className="grid grid-cols-[auto_1fr] gap-x-8 gap-y-0 text-[14.5px] leading-[1.55]">
+                        <dt className="font-mono text-[12px] uppercase tracking-[.1em] text-[var(--muted-foreground)] pt-[2px] whitespace-nowrap">{k}</dt>
                         <dd className="text-[var(--foreground)]">{v}</dd>
                       </div>
                     ))}
