@@ -182,14 +182,13 @@ export default function LlmInfoPage() {
                 ["/contact", "Contact"],
                 ["/realisations", "Réalisations"],
               ].map(([href, label]) => (
-                <li key={href} className="flex gap-3 text-[14px]">
+                <li key={href} className="flex flex-wrap gap-x-3 gap-y-0.5 text-[14px]">
                   <Link
                     href={href}
                     className="text-[var(--muted-foreground)] hover:text-[var(--foreground)] transition-colors font-mono"
                   >
                     cabalos-electricite.fr{href}
                   </Link>
-                  <span className="text-[var(--border)]">—</span>
                   <span className="text-[var(--muted-foreground)]">{label}</span>
                 </li>
               ))}
