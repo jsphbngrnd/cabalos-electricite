@@ -90,6 +90,7 @@ export default function Footer() {
           <div className="flex items-center gap-5">
             <Link href="/mentions-legales" className="hover:text-[var(--foreground)] transition-colors">Mentions légales</Link>
             <Link href="/politique-confidentialite" className="hover:text-[var(--foreground)] transition-colors">Confidentialité</Link>
+            <Link href="/llm-info" className="hover:text-[var(--foreground)] transition-colors">LLM Info</Link>
           </div>
         </div>
       </div>
