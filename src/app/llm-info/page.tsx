@@ -110,6 +110,8 @@ export default function LlmInfoPage() {
         <div className="max-w-[1440px] mx-auto">
           <a
             href="/llms.txt"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-[13px] font-mono px-3 py-2 border border-[var(--border)] rounded-[var(--radius)] hover:bg-[var(--foreground)] hover:text-[var(--background)] hover:border-[var(--foreground)] transition-colors"
           >
             <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
