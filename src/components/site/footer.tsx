@@ -85,9 +85,9 @@ export default function Footer() {
         </div>
 
         <div className="h-px bg-[var(--border)]" />
-        <div className="pt-5 flex flex-wrap items-center justify-between gap-4 text-[11.5px] text-[var(--muted-foreground)] font-mono uppercase tracking-[.16em]">
+        <div className="pt-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 text-[11.5px] text-[var(--muted-foreground)] font-mono uppercase tracking-[.16em]">
           <div>© 2026 Cabalos Électricité</div>
-          <div className="flex items-center gap-5">
+          <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
             <Link href="/mentions-legales" className="hover:text-[var(--foreground)] transition-colors">Mentions légales</Link>
             <Link href="/politique-confidentialite" className="hover:text-[var(--foreground)] transition-colors">Confidentialité</Link>
             <Link href="/llm-info" className="hover:text-[var(--foreground)] transition-colors">LLM Info</Link>
