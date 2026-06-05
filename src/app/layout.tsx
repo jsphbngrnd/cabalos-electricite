@@ -36,6 +36,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Cabalos électricité" }],
   creator: "Cabalos électricité",
+  verification: { google: "92b4bc6ec3fd31e7" },
   metadataBase: new URL(
     process.env.NEXT_PUBLIC_SITE_URL || "https://cabalos-electricite.fr"
   ),
