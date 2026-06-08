@@ -67,7 +67,7 @@ export default function HomePage() {
           </div>
           <div className="lg:col-span-4 flex flex-col justify-end gap-6">
             <p className="text-[15.5px] leading-[1.55] text-[var(--muted-foreground)] max-w-[40ch] text-pretty">
-              Emma Cabal — CAP Électricien, habilitations NF C 15-100, RC Pro
+              Emma Cabal — CAP Électricien, habilitation BR et B1V, RC Pro
               assurée. Diagnostic sur place, devis détaillé en 48 heures,
               intervention dans Marseille et 30 km autour.
             </p>

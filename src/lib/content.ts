@@ -175,7 +175,7 @@ export const PROS: [string, string][] = [
 
 export const PROS_DIFF: [string, string][] = [
   ["Réactivité",    "Réponse sous 24 h en semaine. Devis sous 48 h. Intervention planifiée à l'heure dite."],
-  ["Certification", "CAP Électricien, habilitations NF C 15-100, RC Pro et décennale — tous les justificatifs sur demande."],
+  ["Certification", "CAP Électricien, habilitation BR et B1V, RC Pro et décennale — tous les justificatifs sur demande."],
   ["Communication", "Comptes-rendus de chantier, photos, schémas remis. Un interlocuteur, pas un standard."],
   ["Qualité",       "Câblage rangé, repérage clair, finitions soignées. Contrôle visuel de la prestation avant départ."],
 ];
