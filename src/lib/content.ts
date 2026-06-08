@@ -148,8 +148,8 @@ export const STEPS: [string, string][] = [
 
 export const PARCOURS = [
   {
-    titre: "Le début — bricolage et Beaux-Arts",
-    texte: "Passionnée de bricolage depuis toujours, j'ai grandi avec l'envie de comprendre comment les choses sont faites. Mon passage par les Beaux-Arts d'Aix-en-Provence a renforcé cette curiosité : j'y ai appris à travailler le bois, le métal, les volumes, à construire, démonter, fabriquer et expérimenter. Ces années ont posé les bases de mon rapport au geste, au matériau, et à la précision.",
+    titre: "Le début — travail manuel et Beaux-Arts",
+    texte: "Attirée depuis toujours par le travail manuel, j'ai grandi avec l'envie de comprendre comment les choses sont faites. Mon passage par les Beaux-Arts d'Aix-en-Provence a renforcé cette curiosité : j'y ai appris à travailler le bois, le métal, les volumes, à construire, démonter, fabriquer et expérimenter. Ces années ont posé les bases de mon rapport au geste, au matériau, et à la précision.",
   },
   {
     titre: "L'apprentissage par la pratique",
@@ -161,7 +161,7 @@ export const PARCOURS = [
   },
   {
     titre: "Aujourd'hui",
-    texte: "Je réunis tout ce parcours : la curiosité du bricolage, la rigueur des matériaux, la pédagogie de l'enseignement et la précision du métier d'électricienne.",
+    texte: "Je réunis tout ce parcours : la curiosité du geste, la rigueur des matériaux, la pédagogie de l'enseignement et la précision du métier d'électricienne.",
   },
 ];
 
