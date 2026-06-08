@@ -9,11 +9,11 @@ import CTABanner from "@/components/site/cta-banner";
 export const metadata: Metadata = {
   title: "À propos — Emma Cabal, électricienne",
   description:
-    "Découvrez Emma Cabal, électricienne indépendante à Marseille. CAP Électricien, habilitations NF C 15-100, RC Pro. Méthode de travail en 5 étapes, valeurs et certifications.",
+    "Découvrez Emma Cabal, électricienne indépendante à Marseille. CAP Électricien, habilitation BR et B1V, RC Pro. Méthode de travail en 5 étapes, valeurs et certifications.",
   alternates: { canonical: "/a-propos" },
   openGraph: {
     title: "À propos – Emma Cabal, électricienne indépendante à Marseille",
-    description: "De Beaux-Arts à l'électricité — le parcours d'Emma Cabal, électricienne artisane à Marseille. CAP, habilitations NF C 15-100, RC Pro.",
+    description: "De Beaux-Arts à l'électricité — le parcours d'Emma Cabal, électricienne artisane à Marseille. CAP, habilitation BR et B1V, RC Pro.",
     url: "/a-propos",
     images: [{ url: "/OpenGraph.png", width: 1200, height: 630, alt: "Emma Cabal – Cabalos Électricité" }],
   },
